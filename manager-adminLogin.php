@@ -47,7 +47,7 @@
 
 <section class="container grey-text">	
 
-	<h4 class="center blue-text">Manager/Admin Login</h4>
+	<h4 class="center heading-text">Manager/Admin Login</h4>
    
     <form class="white" action="manager-adminLogin.php" method="POST">
 

@@ -144,7 +144,7 @@
 <?php include('templates/header.php'); ?>
 
 	<section class="container grey-text">	
-	<h4 class="center blue-text">Student SignUp Page</h4>
+	<h4 class="center heading-text">Student SignUp Page</h4>
 	<form class="white" action="student_signup.php" method="post" enctype="multipart/form-data">
     
         <label><h5>First Name: </h5></label>
