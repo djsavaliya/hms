@@ -6,14 +6,17 @@
 		?>
 		</div>
 	<footer class="section">
-		<div class="left black-text" >
-		Contact Admin:- 
-		<form action="send_mail.php" method="POST" id="admin_email_form">
-		<input type="hidden" name="receiver_email" value="<?php echo htmlspecialchars($admin_email_id['email'])?>">
-		<button id="admin_email"><h6><?php echo htmlspecialchars($admin_email_id['email'])?></h6></button>
-		</form>
+		<div class="left" id="footer_text">
+			Contact Admin:- 
+			<form action="send_mail.php" method="POST" id="admin_email_form">
+			<input type="hidden" name="receiver_email" value="<?php echo htmlspecialchars($admin_email_id['email'])?>">
+			<button id="admin_email"><h6><?php echo htmlspecialchars($admin_email_id['email'])?></h6></button>
+			</form>
 		</div>
-		<div class="center grey-text">All Rights Reserved.</div>
-	</footer>
+		<div class="center" style="margin-right: 250px" id="footer_text">© All Rights Reserved.</div>
+	</footer>-
+	<!--<footer class="section" id="footer_text">
+		<div class="center">© All Rights Reserved.</div>
+	</footer>-->
 	</div>
 </body>

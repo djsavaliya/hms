@@ -78,7 +78,7 @@
                 <td><input type="text" name="body"></td>
             </tr>
             <tr>
-                <td colspan=2><input type="submit" name="submit" class="btn brand z-depth-0"></td>
+                <td colspan=2><center><input type="submit" name="submit" value="Send" class="btn brand z-depth-0"></center></td>
             </tr>
         </form>
     </table>

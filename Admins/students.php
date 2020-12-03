@@ -46,19 +46,13 @@ $display[]=array("name"=>'None',"hostel_name"=>'None',"email"=>'None',"mobile"=>
 
     <?php include('templates/header.php'); ?>
 
-	<div style="text-align: center;">
+	<h3 class="center grey-text">Students</h3>
 
-		<h3>
-			<u>Student Details</u>
-		</h3>
-
-	</div>
-
-	<form action="students.php" method="post">
+	<form action="students.php" class="center" method="post">
 
 		<?php foreach($hostels as $hostel){ ?>
 
-			<div style=" margin-bottom:10px; padding-bottom:10px;" class="waves-effect waves-light btn-small brand-text">
+			<div class="waves-effect btn brand">
 			<h6>
 				<input type="submit" value="<?php echo htmlspecialchars($hostel['hostel_name']); ?>" 
 				name="<?php echo htmlspecialchars($hostel['hostel_id']); ?>"> 

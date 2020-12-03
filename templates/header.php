@@ -9,11 +9,14 @@
 			padding-bottom:4.0rem;
 		}
 		.brand{
-			background: #cbb09c !important;
+			background: #6e72ee !important;
 		}
 		.brand-text{
 			color: #cbb09c !important;
 			font-size: 40px !important;
+		}
+		.heading-text{
+			color: #ee6eb2 !important;
 		}
 		.title-text{
 			font-size: 25px;
@@ -21,6 +24,12 @@
 		}
 		.title-box{
 			margin: 0px 25px;
+		}
+		.nav_button{
+			margin-right: 10px;
+		}
+		.nav_button_text{
+			font-size: 20px;
 		}
 		form{
 			max-width: 460px;
@@ -32,7 +41,7 @@
 			bottom: 0;
 			width: 100%;
 			height: 3.0rem;
-			background-color: #ffff99;
+			background-color: #ee6e73;
 			color: white;
 			text-align: center;
 		}
@@ -45,8 +54,11 @@
 <body class="grey lighten-2">
 	<div class="main_container">
 		<div class="content_wrap">
-			<nav class="white z-depth-0">
-				<div class="container row">
-					<a href="index.php" class="brand-logo green-text text-lighten-2 center">HOSTEL MANAGEMENT SYSTEM</a>
-				</div>
 			</nav>
+			<div class="navbar-fixed">
+				<nav>
+				    <div class="nav-wrapper">
+				      <a href="index.php" class="brand-logo center" id="logo">HOSTEL MANAGEMENT SYSTEM</a>
+				    </div>
+				</nav>
+			</div>
